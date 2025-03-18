@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interativo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/jquery.mapael.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/maps/brazil.min.js"></script>
+</head>
+<body>
+    <div id="mapa-container">
+        <h2>Encontre nosso produto</h2>
+        <div class="mapael">
+            <div class="map"></div>
+        </div>
+        <div id="info">Clique em um estado para ver onde encontrar.</div>
+        
+        <div id="cep-search">
+            <h3>Encontre o ponto de venda mais próximo</h3>
+            <input type="text" id="cep" placeholder="Digite seu CEP">
+            <button onclick="buscarPontoVenda()">Buscar</button>
+            <div id="resultado"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
