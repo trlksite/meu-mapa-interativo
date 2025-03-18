@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#mapa-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.map {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+#cep-search {
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
